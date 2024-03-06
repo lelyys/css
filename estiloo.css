@@ -1,0 +1,170 @@
+*{
+    margin: 0 0 0 0;
+    padding: 100px;
+    box-sizing: border-box;
+  }
+  
+  div{
+     width:200px;
+   height: 200px;
+  background: deepskyblue;
+  border: 15px ridge black;
+  box-shadow: 5px -0px 30px black;
+  margin :100px;
+  padding: 50px;
+  } 
+   #box1{
+      width:300px;
+   height: 300px;
+  background: caqui;
+  border: 10px solid hotpink;
+  box-shadow: -10px 0px 40px purple;
+  margin :100px;
+  padding: 50px;
+   }
+   
+    #box2{
+      width:200px;
+   height: 200px;
+  background: #FCAB12;
+  border: 20px dashed whitesmoke;
+  box-shadow: 20px -8px 30px blanchedalmond;
+  margin :100px;
+  padding: 50px;
+   }
+    #box3 {
+      width: 100px;
+      height: 100px;
+      background: #ABC;
+      border: 20px double gr;
+      box-shadow: 10px -0px 40px deepskyblue;
+      margin: 100px;
+      padding: 50px;
+    }
+    #box4 {
+      width: 250px;
+      height: 250px;
+      background: rgb(0, 111, 90);
+      border: 20px outset black;
+      box-shadow: 10px -0px 40px greenyellow;
+      margin: 100px;
+      padding: 50px;
+    }
+       #box5 {
+         width: 50px;
+         height: 50px;
+         background:rgb(20, 30, 73) ;
+         border: 20px groove black;
+         box-shadow: 10px -0px 40px black;
+         margin: 100px;
+         padding: 50px;
+    }
+     #box6 {
+       width: 40px;
+       height: 40px;
+       background: rgba(0, 20, 10, .9);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumpurple;
+       margin: 100px;
+       padding: 50px;
+     }
+     #rgba2{
+       width: 40px;
+       height: 40px;
+       background: rgba(57, 90, 11, .74);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumpurple;
+       margin: 100px;
+       padding: 50px;
+     }
+       #box7 {
+       width: 400px;
+       height: 400px;
+       background: linear-gradient(darkviolet, mediumpurple);
+       border: 20px hidden black;
+       box-shadow: 10px -0px 40px pink;
+       margin: 100px;
+       padding: 50px;
+     }
+     #dg2{
+       width: 400px;
+       height: 400px;
+       background: linear-gradient(slateblue,indigo);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumpurple;
+       margin: 100px;
+       padding: 50px;
+     }
+        #dg3{
+       width: 400px;
+       height: 400px;
+       background: linear-gradient(45deg,slateblue,indigo);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumpurple;
+       margin: 100px;
+       padding: 50px;
+     }
+        #dg4{
+       width: 400px;
+       height: 400px;
+       background: linear-gradient(90deg,darkred,blue);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumslateblue;
+       margin: 100px;
+       padding: 50px;
+     }
+        #dg5{
+       width: 400px;
+       height: 400px;
+       background: linear-gradient(75deg,steelblue,turquoise);
+       border: 20px none black;
+       box-shadow: 10px -0px 40px  mediumblue;
+       margin: 100px;
+       padding: 50px;
+     }
+     
+    #box8 {
+       width: 20px;
+       height: 20px;
+       background: violet ;
+       border: 20px ridge black;
+       box-shadow: 9px 7px 41px rebeccapurple;
+       margin: 100px;
+       padding: 50px;
+     } 
+       #box9 {
+       width: 100px;
+       height: 100px;
+       background: hsl(6, 2%, 19%);
+       border: 20px dashed floralwhite;
+       box-shadow: 10px -0px 40px skyblue;
+       margin: 100px;
+       padding: 50px;
+     }
+          #h2 {
+       width: 100px;
+       height: 100px;
+       background: hsl(77, 7%, 23%);
+       border: 20px dashed black;
+       box-shadow: 10px -0px 40px skyblue;
+       margin: 100px;
+       padding: 50px;
+     }
+      #box10 {
+       width: 250px;
+       height: 250px;
+       background: hsla(26, 18%, 24%);
+       border: 20px dotted black;
+       box-shadow: 10px -0px 40px mediumblue;
+       margin: 100px;
+       padding: 50px;
+     }
+          #ha {
+       width: 100px;
+       height: 100px;
+       background: hsla(77, 82%, 9%);
+       border: 20px dashed black;
+       box-shadow: 10px -0px 40px skyblue;
+       margin: 100px;
+       padding: 50px;
+     }

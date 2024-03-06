@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+ }
+ 
+ div{
+    width:200px;
+  height: 200px;
+ background: deepskyblue;
+ border: 15px ridge black;
+ box-shadow: 5px -0px 30px black;
+ margin :100px;
+ padding: 50px;
+ } 
+  #box1{
+     width:300px;
+  height: 300px;
+ background: hotpink;
+ border: 10px solid pink;
+ box-shadow: -10px 0px 40px purple;
+ margin :100px;
+ padding: 50px;
+  }
+  
+   #box2{
+     width:200px;
+  height: 200px;
+ background: lightblue;
+ border: 20px dashed whitesmoke;
+ box-shadow: 20px -8px 30px blanchedalmond;
+ margin :100px;
+ padding: 50px;
+  }
+   #box3 {
+     width: 100px;
+     height: 100px;
+     background: skyblue;
+     border: 20px double black;
+     box-shadow: 10px -0px 40px deepskyblue;
+     margin: 100px;
+     padding: 50px;
+   }
+   #box4 {
+     width: 250px;
+     height: 250px;
+     background: darkred;
+     border: 20px outset black;
+     box-shadow: 10px -0px 40px greenyellow;
+     margin: 100px;
+     padding: 50px;
+   }
+      #box5 {
+        width: 50px;
+        height: 50px;
+        background: seagreen;
+        border: 20px groove black;
+        box-shadow: 10px -0px 40px black;
+        margin: 100px;
+        padding: 50px;
+   }
+    #box6 {
+      width: 40px;
+      height: 40px;
+      background: paleturquoise;
+      border: 20px none black;
+      box-shadow: 10px -0px 40px  mediumpurple;
+      margin: 100px;
+      padding: 50px;
+    }
+      #box7 {
+      width: 400px;
+      height: 400px;
+      background: cornflowerblue;
+      border: 20px hidden black;
+      box-shadow: 10px -0px 40px pink;
+      margin: 100px;
+      padding: 50px;
+    }
+   #box8 {
+      width: 20px;
+      height: 20px;
+      background: mediumpurple;
+      border: 20px ridge black;
+      box-shadow: 10px -0px 40px lightpink;
+      margin: 100px;
+      padding: 50px;
+    } 
+      #box9 {
+      width: 100px;
+      height: 100px;
+      background: brown;
+      border: 20px dashed black;
+      box-shadow: 10px -0px 40px skyblue;
+      margin: 100px;
+      padding: 50px;
+    }
+     #box10 {
+      width: 250px;
+      height: 250px;
+      background: deeppink;
+      border: 20px dotted black;
+      box-shadow: 10px -0px 40px mediumblue;
+      margin: 100px;
+      padding: 50px;
+    }

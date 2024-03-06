@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header>h1{
+    background-color:pink;
+    
+  }
+ 
+   hr{
+   color:aqua;
+     width:150px;
+   }
+   #holiwis{
+     font-size:large;
+     color:darkred;
+   }
+   .amomorado{
+     color:purple;
+   }
+  input[type="text"]{
+    color:darkblue;
+  }
+  img:hover{
+    transition:2s all ease;
+    transform: scale(1.5)rotate(360deg);
+    
+  }
+  p.pedo#torpedo{
+    color:blue;
+  }
+  h2,h3,h4{
+    color:darkgreen;
+  }
