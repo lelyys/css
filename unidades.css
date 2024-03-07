@@ -1,0 +1,103 @@
+*{
+  margin: 0 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ #box1{
+    width:20em;
+ height: 30em;
+background: hotpink;
+border: 10px solid pink;
+box-shadow: -10px 0px 40px purple;
+ }
+ 
+  #box2{
+    width:70ex;
+ height: 70ex;
+background: lightblue;
+border: 20px dashed whitesmoke;
+box-shadow: 20px -8px 30px blanchedalmond;
+
+ }
+  #box3 {
+    width: 40ch;
+    height: 59ch;
+    background: skyblue;
+    border: 20px double black;
+    box-shadow: 10px -0px 40px deepskyblue;
+    
+  }
+  #box4 {
+    width: 190%;
+    height: 180%;
+    background: darkred;
+    border: 20px outset black;
+    box-shadow: 10px -0px 40px greenyellow;
+    
+  }
+     #box5 {
+       width: 50px;
+       height: 50px;
+       background: seagreen;
+       border: 20px groove black;
+       box-shadow: 10px -0px 40px black;
+       
+  }
+   #box6 {
+     width: 180cm;
+     height: 160cm;
+     background: paleturquoise;
+     border: 20px none black;
+     box-shadow: 10px -0px 40px  mediumpurple;
+     
+   }
+     #box7 {
+     width: 110mm;
+     height: 115mm;
+     background: cornflowerblue;
+     border: 20px hidden black;
+     box-shadow: 10px -0px 40px pink;
+     
+   }
+  #box8 {
+     width: 99q;
+     height: 99q;
+     background: mediumpurple;
+     border: 20px ridge black;
+     box-shadow: 10px -0px 40px lightpink;
+     
+   } 
+     #box9 {
+     width: 100in;
+     height: 100in;
+     background: brown;
+     border: 20px dashed black;
+     box-shadow: 10px -0px 40px skyblue;
+     
+   }
+    #box10 {
+     width: 700pc;
+     height: 550pc;
+     background: deeppink;
+     border: 20px dotted black;
+     box-shadow: 10px -0px 40px mediumblue;
+     
+    }
+    #box11{
+      width: 300pt;
+     height: 330pt;
+     background: deeppink;
+     border: 20px dotted black;
+     box-shadow: 10px -0px 40px mediumblue;
+      
+    }
+   #box12{
+     width: 150rem;
+     height: 200rem;
+     background: deeppink;
+     border: 20px dotted black;
+     box-shadow: 10px -0px 40px mediumblue;
+      
+     
+   }
