@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#uno{
+  background: #eec056;
+  width: 700px;
+  height: 600px;
+  border-radius: 100%;
+  border: 10px solid black;
+
+}
+
+#ojo1{
+background-color: rgba(41, 12, 3, 1);
+width: 70px;
+height: 90px;
+border-radius: 80%;
+position: absolute ;
+top: 150px;
+right : 600px;
+}
+
+#ojo2{
+background-color: rgba(41, 12, 3, 1);
+width: 70px;
+height: 90px;
+border-radius: 90%;
+position: absolute;
+top: 150px;
+left: 600px;
+}
+
+#boca{
+  background-color: rgba(41, 12, 3, 1);
+  width: 400px;
+  height: 40px;
+  border-radius: 3%;
+  position: relative;
+  bottom: 220px;
+  
+}
