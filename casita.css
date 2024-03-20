@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lienzo{
+    width: 900px;
+    height: 500px;
+    background: rgb(0, 91, 128);
+}
+
+#nube{
+    width: 130px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 35px;
+    left: 485px;
+    z-index: 1;
+    border-radius: 100%;
+
+}
+#nube1{
+    width: 90px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 35px;
+    left: 550px;
+    z-index: 1;
+    border-radius: 50%;
+}
+#nube2{
+    width: 90px;
+    height: 90px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    z-index: 1;
+    border-radius: 50%;
+}
+#nube3{
+    width: 100px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    left: 450px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+
+
+#nube4{
+    width: 130px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    top: 40px;
+    left: 750px;
+    z-index: 1;
+    border-radius: 100%;
+
+}
+#nube5{
+    width: 85px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    top: 40px;
+    left: 810px;
+    z-index: 1;
+    border-radius: 50%;
+}
+#nube6{
+    width: 80px;
+    height: 90px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 780px;
+    z-index: 1;
+    border-radius: 50%;
+}
+#nube7{
+    width: 100px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    top: 38px;
+    left: 730px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+suelo{
+    width:900px ;
+    height: 100px;
+    background: rgb(58, 238, 58);
+    position: absolute;
+    top: 400px;
+    left: 233px;
+}
+
+
+#tronco{
+    width: 50px;
+    height: 150px;
+    background: rgba(68, 24, 4, 0.993);
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    z-index: 1;
+}
+#hojas{
+    width: 120px;
+    height: 120px;
+    background: rgb(10, 90, 10);
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+    top:180px ;
+    left: 250px;
+}
+
+
+#tronco2{
+    width: 50px;
+    height: 150px;
+    background: rgba(68, 24, 4, 0.993);
+    position: absolute;
+    top: 250px;
+    left: 989px;
+    z-index: 1;
+}
+#hojas2{
+    width: 120px;
+    height: 120px;
+    background: rgb(10, 90, 10);
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+    top:200px ;
+    left: 950px;
+  }
+#pared{
+    width: 400px;
+    height: 200px;
+    background: rgb(154, 71, 248);
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+#techo{
+    width: 500px;
+    height: 30px;
+    background: rgb(220, 155, 240);
+    position: absolute;
+    top:170px;
+    left: 450px;
+}
+#puerta{
+    width: 100px;
+    height: 150px;
+    background: rgb(34, 14, 3);
+    position:absolute;
+    top: 250px;
+    left: 550px;
+    z-index: 2;
+}
+
+#manija{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgb(153, 152, 152);
+    position: absolute;
+    top:325px ;
+    left: 625px;
+    z-index: 2;
+}
+
+#ventana{
+    width: 150px;
+    height: 100px;
+    background: rgb(150, 177, 236);
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    z-index: 2;
+}
+
+#cruz{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 250px;
+    left:770px ;
+    z-index: 3;
+}
+#cruz2{
+    width: 150px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 295px;
+    left: 700px;
+    z-index: 3;
+  }
+#sol{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(231, 202, 35);
+    position: absolute;
+    top: 3px;
+    left: 1030px;
+}
+#rayo{
+    width: 10px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 10px;
+    left: 1002px;
+    transform: rotate(100deg);
+}
+
+#rayo2{
+    width: 10px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 50px;
+    left: 1003px;
+    transform: rotate(70deg);
+}
+
+#rayo3{
+    width: 10px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 85px;
+    left: 1025px;
+    transform: rotate(40deg);  
+}
+
+#rayo4{
+    width: 10px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 105px;
+    left: 1070px;
+    transform: rotate(0deg);   
+}
+
+#rayo5{
+    width: 10px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 95px;
+    left: 1109px;
+    transform: rotate(150deg);
+      }
+#pierna{
+    width: 10px;
+    height: 50px;
+    background: rgb(66, 5, 5);
+    position:absolute;
+    top: 350px;
+    left: 400px;
+    z-index: 2;
+    transform: rotate(20deg);
+}
+#pierna2{
+    width: 10px;
+    height: 50px;
+    background: rgb(66, 5, 5);
+    position:absolute;
+    top: 350px;
+    left: 420px;
+    z-index: 2;
+    transform: rotate(160deg);
+}
+
+#cuerpo{
+    width: 10px;
+    height: 50px;
+    background: rgb(66, 5, 5);
+    position: absolute;
+    top: 310px;
+    left: 410px;
+    z-index: 3;
+}
+
+#mano{
+    width: 10px;
+    height: 50px;
+    background: rgb(66, 5, 5);
+    position:absolute;
+    top: 310px;
+    left: 425px;
+    z-index: 2;
+    transform: rotate(140deg);
+}
+
+#mano2{
+    width: 10px;
+    height: 50px;
+    background: rgb(66, 5, 5);
+    position:absolute;
+    top: 310px;
+    left: 400px;
+    z-index: 2;
+    transform: rotate(30deg);
+}
+
+#cara{
+    width: 40px;
+    height: 40px;
+    background: rgb(66, 5, 5);
+    border-radius: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 275px;
+    left: 395px;
+  }
