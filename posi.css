@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  background: red;
+  border: 4px inset black;
+  box-shadow: -8px -5px 15px black;
+  margin: 25px;
+  padding: 20px;
+  display: inline-block;
+  
+}
+
+
+#relativo{
+  background: rgba(255, 0, 0, 0.7);
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#absoluto{
+  background: rgba(0, 255, 0, 0.5);
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+#fijo{
+  background: rgba(200, 0, 0, 0.7);
+  position: fixed;
+  top: 100;
+  left: 100;
+}
